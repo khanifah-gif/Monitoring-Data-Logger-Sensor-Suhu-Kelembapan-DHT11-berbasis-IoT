@@ -1,0 +1,15 @@
+Rules
+
+1. Rename project "Log Data Suhu"
+2. Rename kolom. Kolom A: Date, Kolom B: Time, Kolom C: Temperature, Kolom D: Humidity
+3. Pilih tab tools, klik script editor
+4. Rename project "Log Data Suhu"
+5. Copas script_google_sheet
+6. Ganti nilai pada variabel sheet_id. nilai sheet ID diperoleh dari link project google sheet yang telah dibuat. https://docs.google.com/spreadsheets/d/<Sheet ID>/edit#gid=0
+7. Ganti nama value1 dengan Temperature, value2 dengan Humidity
+8. Klik publish, deploy as web app, klik deploy.
+9. Copy URL web app untuk mendapatkan nilai GAS ID
+10. Copy GAS ID dari link tadi. https://docs.google.com/spreadsheets/d/<GAS ID>/edit#gid=0
+11. Paste GAS ID di program untuk ESP8266
+12. Sesuaikan value1 & value2 sesuai di google sheet
+13. Jalankan program
